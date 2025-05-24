@@ -1,0 +1,17 @@
+
+.container{
+    background-color: red;
+}
+
+.gitak{
+    display: block;
+}
+
+.sbok{
+    display: none;
+}
+
+.content {
+ /* background-color: aqua; */
+background-image: url('image.jpg');
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <!-- css tambah di sini -->
+    <link rel="stylesheet" href="/assets/css/mystyle.css">
+</head>
+
+<body>
+    <div class="content">
+    <div id="bagian_judul" class="container">
+        <p>HOME</p>
+    </div>
+    <div>
+        <!-- input text -->
+        <input id="masukan_1" value="" placeholder="masukan texs " type="text">
+    </div>
+
+    <div>
+        <button type="button" onclick="ganti_teks()">GANTI TEKS</button>
+        <button type="button" onclick="tampilkan_alert()">TAMPILKAN DI ALERT</button>
+        <button type="button" onclick="lihat_judul()">Lihat</button>
+        <button type="button" onclick="sembunyikan_judul()">sembunyikan</button>
+    </div>
+    <div>
+        <h2>latihan 2</h2>
+        <div>
+            <!-- input nama alamat jens kelamin umur -->
+            <form action="#" method="POST">
+                <!-- Nama -->
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap"><br><br>
+
+                <!-- Alamat -->
+                <label for="alamat">Alamat:</label><br>
+                <textarea id="alamat" name="alamat" rows="4" cols="40"
+                    placeholder="Masukkan alamat lengkap..."></textarea><br><br>
+
+                <!-- Jenis Kelamin -->
+                <label>Jenis Kelamin:</label><br>
+                <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+                <label for="laki">Laki-laki</label><br>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                <label for="perempuan">Perempuan</label><br><br>
+
+                <!-- umur -->
+                <label for="umur">umur :</label>
+                <input type="number" id="number" name="umur" value="10"> <br>
+               </form>
+                <br>
+                <br>
+
+
+        </div>
+</div>
+        <br>
+        <br>
+
+        <div>
+             <input id="masukan_2" value="" placeholder="masukan text" type="text">
+            <!--button tampil alert dan tampil console log-->
+            <button type="button" onclick="lihat_alert()">LIHAT DI ALERT</button>
+        </div>
+    </div>
+
+    <script src="/assets/js/myscript.js"></script>
+
+</body>
+
+</html>
