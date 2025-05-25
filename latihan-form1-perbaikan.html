@@ -103,25 +103,8 @@
                     <th>Pendidikan Terakhir</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td class="td">1</td>
-                    <td>KHAIRUL</td>
-                    <td>BAKONG</td>
-                    <td>Laki-laki</td>
-                    <td>20</td>
-                    <td>JEPANG</td>
-                    <td>S3 MONTIR</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>MADANI</td>
-                    <td>PETAK</td>
-                    <td>Laki-laki</td>
-                    <td>20</td>
-                    <td>FRANCIS</td>
-                    <td>S1 EKONOMI </td>
-                </tr>
+            <tbody id="tabel-data-user">
+                
             </tbody>
         </table>
 
@@ -130,14 +113,7 @@
 
     <!-- script js -->
     <script src="/assets/js/myscript.js"></script>
-    <script>
-        document.getElementById("formData").addEventListener("submit", function (event) {
-            event.preventDefault(); // supaya tidak reload
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData.entries());
-            console.log("Data Form:", data);
-        });
-    </script>
+    <script src="/assets/js/crud-user.js"></script>
 
 </body>
 
