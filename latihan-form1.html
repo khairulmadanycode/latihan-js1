@@ -12,7 +12,7 @@
 <!-- form -->
     <h2>Form Data Diri</h2>
 
-    <form action="#" method="post">
+    <form id="formData" action="#" method="post">
 
         <label for="nama">Nama:</label><br>
         <input type="text" id="nama" name="nama" required><br><br>
@@ -51,7 +51,14 @@
 
     </form>
 
-
+<script>
+      document.getElementById("formData").addEventListener("submit", function(event) {
+  event.preventDefault(); // supaya tidak reload
+  const formData = new FormData(this);
+  const data = Object.fromEntries(formData.entries());
+  console.log("Data Form:", data);
+});
+</script>
 
 
 
