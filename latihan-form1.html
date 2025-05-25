@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Form Data Diri</title>
-     <link rel="stylesheet" href="/assets/css/mystyle.css">
+    <link rel="stylesheet" href="/assets/css/mystyle.css">
 
 </head>
 
 <body class="body">
-<!-- form -->
+    <!-- form -->
     <h2>Form Data Diri</h2>
 
     <form id="formData" action="#" method="post">
@@ -51,14 +51,14 @@
 
     </form>
 
-<script>
-      document.getElementById("formData").addEventListener("submit", function(event) {
-  event.preventDefault(); // supaya tidak reload
-  const formData = new FormData(this);
-  const data = Object.fromEntries(formData.entries());
-  console.log("Data Form:", data);
-});
-</script>
+    <script>
+        document.getElementById("formData").addEventListener("submit", function (event) {
+            event.preventDefault(); // supaya tidak reload
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData.entries());
+            console.log("Data Form:", data);
+        });
+    </script>
 
 
 
