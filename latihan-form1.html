@@ -1,54 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan Form 1</title>
-    <!-- style -->
+    <title>Form Data Diri</title>
+     <link rel="stylesheet" href="/assets/css/mystyle.css">
+
 </head>
 
-<body>
+<body class="body">
+<!-- form -->
+    <h2>Form Data Diri</h2>
 
-    <!-- Judul -->
-    <div>
-        <h1>Latihan Membuat Form</h1>
-        <p>Latihan membuat form html, css dan java script. Lorem.</p>
-        <p>
-            Baca input input tersebut dengan js.
-            button 1 menampilkan dengan allert.
-            button 2 menampilkan dengan log.
-        </p>
-    </div>
+    <form action="#" method="post">
 
-    <!-- Form -->
-    <div style="margin-top: 10px;">
-        <p>Buatlah form di bawah ini yang dapat menginputkan: <br> nama,<br> alamat, <br> jenis kelamin, <br>umur, <br>kewarga negaraan, <br>pendidikan terakhir</p>
-        <div style="margin-top: 10px;">
-            <!-- Nama -->
-            <div style="margin-top: 5px;">
-                <label for="nama">Nama</label>
-                <input type="text" id="nama" placeholder="Masukkan nama anda">
-            </div>
-            <!-- Alamat -->
-            <div style="margin-top: 5px;">
-                <label for="alamat">Alamat</label>
-                <input type="text" id="alamat" placeholder="Masukkan alamat anda">
-            </div>
-        </div>
-    </div>
-    <!-- END Form -->
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat" rows="3" required></textarea><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" required>
+        <label for="laki">Laki-laki</label><br>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <label for="umur">Umur:</label><br>
+        <input type="number" id="umur" name="umur" min="0" required><br><br>
+
+        <label for="kewarganegaraan">Kewarganegaraan:</label><br>
+        <input type="text" id="kewarganegaraan" name="kewarganegaraan" required><br><br>
+
+        <label for="pendidikan">Pendidikan Terakhir:</label><br>
+        <select id="pendidikan" name="pendidikan" required>
+            <option value="">-- Pilih --</option>
+            <option value="SD">SD</option>
+            <option value="SMP">SMP</option>
+            <option value="SMA/SMK">SMA/SMK</option>
+            <option value="D3">D3</option>
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+            <option value="S3">S3</option>
+        </select><br><br>
+
+        <input type="submit" value="Kirim"><br>
+        <br>
+        <br>
+
+
+    </form>
+
+
+
+
 
     <!-- Button -->
-    <div style="margin-top:15px;">
-        <button>Tampilkan alert</button>
+    <div>
+        <input id="lihat" value="" placeholder="masukan text" type="text"> <br>
+        <button type="button" onclick="menampilkan_alert()">alert</button> <br>
 
+        <br>
+        <input id="melihat" value="" placeholder="masukan text" type="text"> <br>
+
+        <button type="button" onclick="memanggil_alert()">memanggil alert</button>
     </div>
     <!-- END Button -->
 
 
 
     <!-- script js -->
+    <script src="/assets/js/myscript.js"></script>
 
 </body>
 

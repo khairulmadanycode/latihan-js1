@@ -1,4 +1,10 @@
-
+.body{
+    background-color: rgb(80, 92, 84);
+    /* background-image:url('poto.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
 .container{
     background-color: red;
 }

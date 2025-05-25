@@ -32,3 +32,14 @@ function lihat_alert () {
     console.log ("lihat_alert")
     alert(masukan_2.value)
 }
+
+function menampilkan_alert () {
+   console.log ("mennampilkan_alert")
+    alert(lihat.value)
+}
+
+function memanggil_alert () {
+    const masukan = document.getElementById("melihat");
+
+    alert(melihat.value)
+}
