@@ -1,5 +1,5 @@
 .body{
-    background-color: rgb(80, 92, 84);
+    background-color: rgb(235, 255, 241);
     /* background-image:url('poto.jpg'); */
   background-repeat: no-repeat;
   background-attachment: fixed;  
@@ -20,4 +20,22 @@
 .content {
  /* background-color: aqua; */
 background-image: url('image.jpg');
+}
+
+.form-input{
+    margin: 10px;
+}
+
+.input-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container{
+    /* background-color: red; */
+    width: 320px;
+}
+
+.input-full{
+    width: 100%;
 }
