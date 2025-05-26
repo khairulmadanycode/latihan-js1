@@ -28,7 +28,7 @@ for (let index = 0; index < 3; index++) {
 const arrayString=["Hamdani","Khairl Madani","Nurul Hidayah","Nikmatul aini","Naky"];
 
 for (let index = 0; index < 3; index++) {
-    const element = arraycharacter[index];
+    const element = arrayString[index];
     console.log(element);    
 }
 
@@ -38,6 +38,6 @@ for (let index = 0; index < 3; index++) {
 const arrayNumber=[1,2,3,4,5,6,7,8,9,10.13,11.5];
 
 for (let index = 0; index < 3; index++) {
-    const element = arraycharacter[index];
+    const element = arrayNumber[index];
     console.log(element);    
 }
