@@ -3,20 +3,20 @@
 /**
  * Array yang contoh
  * */
-const arrayContoh = ['H', 'A', 'M'];
+// const arrayContoh = ['H', 'A', 'M'];
 
 // Perulangan
-for (let index = 0; index < 3; index++) {
-    const element = arrayContoh[index];
-    console.log(element);
-}
+// for (let index = 0; index < 3; index++) {
+    // const element = arrayContoh[index];
+    // console.log(element);
+// }
 
 
 const arraycharacter = ['K', 'H', 'A', 'I', 'R', 'U', 'L'];
 /**
  * Array yang meyimpan character(Huruf)
  * */
-for (let index = 0; index < 3; index++) {
+for (let index = 0; index < 7; index++) {
     const element = arraycharacter[index];
     console.log(element);
 }
@@ -27,7 +27,7 @@ for (let index = 0; index < 3; index++) {
  * */
 const arraystring = ["Hamdani", "Khairl Madani", "Nurul Hidayah", "Nikmatul aini", "Naky"];
 
-for (let index = 0; index < 3; index++) {
+for (let index = 0; index < 5; index++) {
     const element = arraystring[index];
     console.log(element);
 }
@@ -37,7 +37,7 @@ for (let index = 0; index < 3; index++) {
  * */
 const arraynumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10.13, 11.5];
 
-for (let index = 0; index < 3; index++) {
+for (let index = 0; index < 11; index++) {
     const element = arraynumber[index];
     console.log(element);
 }
