@@ -40,12 +40,12 @@ background-image: url('image.jpg');
     width: 100%;
 }
 
-.table, th, td {
+/* .table, th, td { */
             border: 1px solid black;
             border-collapse: collapse;
             background-color: aqua;
         }
-.th, td {
+/* .th, td { */
       padding: 10px;
      }
 
@@ -61,3 +61,20 @@ background-image: url('image.jpg');
 /* .tabel { */
 /* border: 1px solid black; */
 }
+
+    table{
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    h2 {
+      margin-bottom: 10px;
+    }

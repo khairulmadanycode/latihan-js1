@@ -75,9 +75,9 @@ function view_data(){
                     <td>${dataUser[i].nama}</td>
                     <td>${dataUser[i].alamat}</td>
                     <td>${dataUser[i].jenis_kelamin}</td>
-                    <td>20</td>
-                    <td>JEPANG</td>
-                    <td>S3 MONTIR</td>
+                    <td>${dataUser[i].umur}</td>
+                    <td>${dataUser[i].kewarganegaraan}</td>
+                    <td>${dataUser[i].pendidika_terakhir}</td>
                 </tr>`
 
             }

@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data barang</title>
+    <link rel="stylesheet" href="mystyle.css">
 </head>
+
 <body>
     <!-- Buar form Barang dengan input , nama, keterangan, qty,harga satuan -->
-    <!-- Buarlah tabel untuk menampilkan data yang sudah di inputkan -->
-    
+    <h2>Form Input Barang</h2>
+    <form id="barangForm">
+        <label for="nama">Nama Barang:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="keterangan">Keterangan:</label><br>
+        <textarea id="keterangan" name="keterangan" rows="3" cols="30"></textarea><br><br>
+
+        <label for="qty">Quantity (Qty):</label><br>
+        <input type="number" id="qty" name="qty" required><br><br>
+
+        <label for="harga">Harga Satuan:</label><br>
+        <input type="number" id="harga" name="harga" step="0.01" required><br><br>
+
+        <button type="submit">Simpan</button>
+    </form>
+
+    <h2>Data Barang</h2>
+    <table id="barangTable">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Keterangan</th>
+                <th>Qty</th>
+                <th>Harga Satuan</th>
+                <th>Total Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+
+    <script src="/assets/js/crud-barang.js"></script>
 </body>
+
+
 </html>
