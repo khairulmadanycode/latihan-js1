@@ -31,6 +31,22 @@ console.log("===============================");
  * 
  * Kerjakan di bawah
  * */
+// SOAL KE 2
+const project = [
+    "hamdani",
+    "naky",
+    "nuri maulida",
+    "kaspi",
+];
+
+console.log("===============================");
+console.log(data[0]);
+console.log(data[1]);
+console.log(data[2]);
+console.log(data[3]);
+console.log("===============================");
+
+// SOAL KE 2 END
 
 /**
  * Tugasss I
@@ -44,7 +60,7 @@ console.log("===============================");
  * 
  * Kerjakan di bawah
  * */
-// SOAL KE 2
+// SOAL KE 1
 const data = [
     "naky",
     "nuri maulida",
@@ -61,22 +77,6 @@ console.log(data[3]);
 console.log(data[4]);
 console.log("===============================");
 
-// SOAL KE 2 END
-
-// SOAL KE 1
-const project = [
-    "hamdani",
-    "naky",
-    "nuri maulida",
-    "kaspi",
-];
-
-console.log("===============================");
-console.log(data[0]);
-console.log(data[1]);
-console.log(data[2]);
-console.log(data[3]);
-console.log("===============================");
-
 // SOAL KE 1 END
+
 
