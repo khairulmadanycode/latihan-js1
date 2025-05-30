@@ -9,77 +9,30 @@ const arrayString = [
     "Nikmatul aini",
     "Naky",
     "Nuri maulida",
-    "Kaspi"
-];
-
+    "Kaspi",
+    "naky",
+    "nuri maulida",
+    "kaspi",
+     "naky",
+     "nuri maulida",
+     "kaspy",
+     "hamdani",
+]
 /**
  * Contoh menampilkan hamdani dan kahirul madani
  * */
 console.log("===============================");
 console.log(arrayString[0]);
-console.log(arrayString[1]);
+console.log(arrayString[2]);
+console.log(arrayString[3]);
+console.log(arrayString[4]);
+console.log(arrayString[5]);
+console.log(arrayString[6]);
+console.log(arrayString[7]);
+console.log(arrayString[8]);    
+console.log(arrayString[9]);      
+console.log(arrayString[10]);       
+console.log(arrayString[11]);        
+console.log(arrayString[12]);
+console.log(arrayString[13]);
 console.log("===============================");
-
-/**
- * Tugasss II
- * tampilkan nama di bawah ini seperti contoh di asas, tapi urutannya harus sama seperti di bawah:
- * 
- * Hamdani
- * Naky
- * Nuri Maulida
- * Kaspi
- * 
- * Kerjakan di bawah
- * */
-
-
-
-
-/**
- * Tugasss I
- * tampilkan nama di bawah ini seperti contoh di asas, tapi urutannya harus sama seperti di bawah:
- * 
- * Naky
- * Nuri Maulida
- * Nurul Hidyah
- * Kaspi
- * Hamdani
- * 
- * Kerjakan di bawah
- * */
-// SOAL KE 1
-const data = [
-    "naky",
-    "nuri maulida",
-    "nurul hidayah",
-    "kaspy",
-    "hamdani",
-];
-
-console.log("===============================");
-console.log(data[0]);
-console.log(data[1]);
-console.log(data[2]);
-console.log(data[3]);
-console.log(data[4]);
-console.log("===============================");
-
-// SOAL KE 1 END
-
-
-// SOAL KE 2
-const project = [
-    "hamdani",
-    "naky",
-    "nuri maulida",
-    "kaspi",
-];
-
-console.log("===============================");
-console.log(data[0]);
-console.log(data[1]);
-console.log(data[2]);
-console.log(data[3]);
-console.log("===============================");
-
-// SOAL KE 2 END
